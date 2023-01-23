@@ -1,0 +1,9 @@
+%% -*- erlang -*-
+{application, job_processing_service,
+ [{description, "job_processing_service"},
+  {vsn, "0.1"},
+  {modules, []},
+  {registered, []},
+  {mod, {'job_processing_service_app', []}},
+  {env, []},
+  {applications, [kernel, stdlib, crypto]}]}.
